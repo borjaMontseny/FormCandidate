@@ -11,7 +11,7 @@
     <body>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Registrar Candidato
+            Candidato
         </button>
 
         <!-- Modal -->
@@ -19,54 +19,45 @@
             <div class="modal-dialog signin_dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="/assets/img/twitter.svg" width="50px" alt="">
-                        <p>Registering to this website, you accept our terms of use and our <a href="#">Privacy Policy</a></p>
+                        <img src="/logo.jpg" width="50px" height="100" alt="logoWeb">
+                        <p>Regístrandote en esta web, aceptas nuestra y <a href="https://cookiefirst.com/es">Política de Privacidad</a></p>
                     </div>
                     <div class="modal-body signin_modal">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="home" aria-selected="true">Sign Up</button>
+                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="home" aria-selected="true">Regístrate</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#signin" type="button" role="tab" aria-controls="profile" aria-selected="false">Sign in</button>
+                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#signin" type="button" role="tab" aria-controls="profile" aria-selected="false">Inicia Sesión</button>
                             </li>
                           </ul>
-                        <div class="social_login">
-                            <p>with your social network</p>
-                            <ul class="social_log">
-                                <li><img src="/assets/img/twitter.svg"></li>
-                                <li><img src="/assets/img/twitter.svg"></li>
-                                <li><img src="/assets/img/twitter.svg"></li>
-                            </ul>
-                            <p>or</p>
-                        </div>
                         <div class="tab-content signin_tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="signup" role="tabpanel" aria-labelledby="home-tab">
                                 <form>
                                     <div class="mb-3">
-                                      <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" placeholder="Username">
+                                      <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" placeholder="Usuario">
                                     </div>
                                     <div class="mb-3">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                        <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contraseña">
                                       </div>
                                     <div class="mb-3">
-                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repetir contraseña">
                                     </div>                                  
-                                    <button type="submit" class="btn btn-primary btn-block">Create An Account</button>
-                                    <p class="signin_link">Already have an Account ? <a  id="profile-tab" data-bs-toggle="tab" data-bs-target="#signin" type="button" role="tab" aria-controls="profile" aria-selected="false" >Sign In</a></p>
+                                    <button type="submit" class="btn btn-primary btn-block">Crear Cuenta</button>
+                                    <p class="signin_link">¿Ya tienes una cuenta? <a  id="profile-tab" data-bs-toggle="tab" data-bs-target="#signin" type="button" role="tab" aria-controls="profile" aria-selected="false">Inicia Sesión</a></p>
                                   </form>
                             </div>
                             <div class="tab-pane fade" id="signin" role="tabpanel" aria-labelledby="profile-tab">
                                 <form>
                                     <div class="mb-3">
-                                      <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" placeholder="Username">
+                                      <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" placeholder="Usuario">
                                     </div>
                                     <div class="">
-                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
                                     </div>      
-                                    <p class="forgot_link"><a href="#">Forgot your Password?</a></p>                            
-                                    <button type="submit" class="btn btn-primary btn-block">Login</button>
-                                    <p class="signin_link">New tp Nifty Corp ? <a  id="home-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="home" aria-selected="true" >Sign Up</a></p>
+                                    <p class="forgot_link"><a href="#">¿Has olvidado tu contraseña?</a></p>                            
+                                    <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                                    <p class="signin_link">¿Nuevo en T-Interviews? <a  id="home-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="home" aria-selected="true" >Regístrate</a></p>
                                   </form>
                             </div>
                         </div>
