@@ -29,7 +29,9 @@
     border-radius: 0;
     font-weight: 600;
     width: 100%;
-    border-color:  #fff;;
+    border-color:  #fff0;
+    padding: 1.2rem, 0;
+    font-size: 16px;
 }
 
 .signin_modal .nav-tabs .nav-link.active{
@@ -68,11 +70,39 @@
     text-align: right;
     font-size: 12px;
 }
+.signin_dialog .modal-header{
+    text-align: center;
+    display: block;
+}
 
 #myTab{
     border: none;
 }
 
+.signin_dialog .modal-header img{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 0,5rem;
 
+}
+.signin_dialog .modal-header p{
+    color: #fff;
+    font-size: 14px;
+    padding: 0 1rem;
 
+}
+
+.signin_dialog .modal-header p a{
+    color:#fff;
+}
+
+.signin_dialog .modal-content{
+    background-color: transparent;
+    border: none;
+}
+
+.signin_dialog .modal-body{
+    background-color: #fff;
+    padding: 0;
+}
 /* Expandable CSS*/
